@@ -5,7 +5,7 @@
  * Purpose: Stores basic information for a contact.
  */
 
-public class Contact {
+public abstract class Contact {
         //Class Properties
     private String firstName;
     private String lastName;
