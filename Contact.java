@@ -48,6 +48,9 @@ public abstract class Contact {
     public void setCompany(Company company) {
         this.company = company;}
 
+//Abstraction: each contact type must identify itself
+    public abstract String getContactType();
+
     //Return contact information as: 
     //First Name: FirstName
     //Last Name: LastName

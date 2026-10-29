@@ -9,7 +9,11 @@ public class Company {
 
     public Company(String companyName) {
         this.companyName = companyName;}
-        
+
+//Overloaded constructor
+    public Company() {
+        this.companyName = "Not Assigned";}
+
     public String getCompanyName() {
         return companyName;}
     public void setCompanyName(String companyName) {

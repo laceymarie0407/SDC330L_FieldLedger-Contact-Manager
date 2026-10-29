@@ -20,6 +20,10 @@ public class Employee extends Contact {
         this.jobTitle = jobTitle;}
 
     @Override
+    public String getContactType() {
+    return "Employee";}        
+
+    @Override
     public String toString() {
         return super.toString() +
                "\nJob Title: " + jobTitle;}

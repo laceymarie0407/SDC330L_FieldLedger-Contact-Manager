@@ -20,6 +20,10 @@ public class Customer extends Contact {
         this.customerNumber = customerNumber;}
 
     @Override
+    public String getContactType() {
+    return "Customer";}
+
+    @Override
     public String toString() {
         return super.toString() +
                "\nCustomer #: " + customerNumber;}

@@ -20,6 +20,10 @@ public class Vendor extends Contact {
         this.serviceType = serviceType;}
 
     @Override
+    public String getContactType() {
+    return "Vendor";}
+
+    @Override
     public String toString() {
         return super.toString() +
                "\nService Type: " + serviceType;}

@@ -1,6 +1,6 @@
 /*
  * Name: Lacey Roof
- * Date: October 19, 2026
+ * Date: October 24, 2026
  * Assignment: SDC330L 
  * Week 1: Demonstrate inheritance & composition using multiple contact types.
  * Week 2: Implement interfaces & polymorphism to manage multiple contact types.
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         //Application header and welcome message
-        System.out.println("\nLacey Roof - SDC330L Week 2 Project");
+        System.out.println("\nLacey Roof - SDC330L Week 3 Project");
         System.out.println("FIELDLEDGER CONTACT MANAGER");
         System.out.println("----------------------------------------");
         System.out.println("Welcome to FieldLedger!");
